@@ -1,2 +1,5 @@
 .vscode/
 .idea/
+
+# the file i redirect to stdin
+input.txt
