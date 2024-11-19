@@ -6,7 +6,7 @@ BAD = {"BUG", "ANT"}
 
 kids = {}
 parents = {}
-for line in sys.stdin.readlines():
+for line in sys.stdin:
     par, this_kids = line.strip().split(":")
     kids[par] = [k for k in this_kids.split(",") if k not in BAD]
 

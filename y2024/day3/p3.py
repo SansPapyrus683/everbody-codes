@@ -10,7 +10,7 @@ def neighbors8(r: int, c: int, r_max: int, c_max: int) -> list[tuple[int, int]]:
 
 
 # i mean adding a boundary of falses is the quickest thing i could think of
-grid = [[False] + [i == "#" for i in line.strip()] + [False] for line in sys.stdin.readlines()]
+grid = [[False] + [i == "#" for i in line.strip()] + [False] for line in sys.stdin]
 col_num = len(grid[0])
 grid = [[False] * col_num] + grid + [[False] * col_num]
 row_num = len(grid)

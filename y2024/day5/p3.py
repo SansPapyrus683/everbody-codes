@@ -3,7 +3,7 @@ from collections import defaultdict
 
 LOOP_THRESH = 1000
 
-mat = [[int(i) for i in r.split()] for r in sys.stdin.readlines()]
+mat = [[int(i) for i in r.split()] for r in sys.stdin]
 cols = [[mat[r][c] for r in range(len(mat))] for c in range(len(mat[0]))]
 
 i = 0

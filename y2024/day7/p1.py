@@ -5,7 +5,7 @@ INIT = 10
 DELTA = {"=": 0, "+": 1, "-": -1}
 
 essences = {}
-for i in sys.stdin.readlines():
+for i in sys.stdin:
     device, ops = i.strip().split(":")
     ops = ops.split(",")
     period = len(ops)

@@ -7,7 +7,7 @@ words.sort(key=lambda rune: len(rune), reverse=True)
 
 input()
 runic = 0
-for line in sys.stdin.readlines():
+for line in sys.stdin:
     line = line.strip()
     is_symbol = [False for _ in range(len(line))]
     for i in range(len(line)):

@@ -9,7 +9,7 @@ def neighbors4(r: int, c: int, r_max: int, c_max: int) -> list[tuple[int, int]]:
     ] if 0 <= p[0] < r_max and 0 <= p[1] < c_max]
 
 
-grid = [[i == "#" for i in line.strip()] for line in sys.stdin.readlines()]
+grid = [[i == "#" for i in line.strip()] for line in sys.stdin]
 row_num = len(grid)
 col_num = len(grid[0])
 

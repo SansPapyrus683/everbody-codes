@@ -19,7 +19,7 @@ OTHERWISE = {"=": 0, **TRACK_SAY}
 loop_len = ROWS * 2 + (COLS - 2) * 2
 
 essences = {}
-for i in sys.stdin.readlines():
+for i in sys.stdin:
     device, ops = i.strip().split(":")
     ops = ops.split(",")
     ops_at = 0

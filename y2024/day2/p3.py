@@ -6,7 +6,7 @@ for w in words.copy():
 words.sort(key=lambda rune: len(rune), reverse=True)
 
 input()
-grid = [line.strip() for line in sys.stdin.readlines()]
+grid = [line.strip() for line in sys.stdin]
 
 row_num = len(grid)
 col_num = len(grid[0])  # just shrothands
