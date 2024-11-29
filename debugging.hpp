@@ -1,5 +1,5 @@
 /**
- * for the rare instanceswhere i have to use cpp
+ * for times when i think python is just a lil too slow
  * this neat lil header file lets me print out basically anything i want
  */
 
